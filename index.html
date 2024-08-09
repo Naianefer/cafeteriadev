@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Club</title>
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- CSS do Bootstrap -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <section>
+        <a href="#" class="logo">
+          <img src="/img/logo.png" alt="Logo" />
+        </a>
+        <nav class="navbar">
+          <a href="#home">Home</a>
+          <a href="#about">Sobre</a>
+          <a href="#menu">Menu</a>
+          <a href="#review">Avaliações</a>
+          <a href="#address">Endereço</a>
+        </nav>
+
+        <div class="navbar-responsive">
+          <a href="#home">Home</a>
+          <a href="#about">Sobre</a>
+          <a href="#menu">Menu</a>
+          <a href="#review">Avaliações</a>
+          <a href="#address">Endereço</a>
+        </div>
+
+        <div class="menu-hamburguer">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+
+        <div class="icons">
+          <img
+            width="30"
+            height="30"
+            src="https://img.icons8.com/ios-filled/30/FFFFFF/search--v1.png"
+            alt="search--v1"
+          />
+          <img
+            id="cart-icon"
+            width="30"
+            height="30"
+            src="https://img.icons8.com/ios-glyphs/30/FFFFFF/shopping-cart--v1.png"
+            alt="shopping-cart--v1"
+          />
+        </div>
+      </section>
+    </header>
+
+    <!-- Inicio do Home -->
+    <div class="home-container">
+      <section id="home">
+        <div class="content">
+          <h3>O CAFÉ COM CÓDIGO DE QUALIDADE</h3>
+          <p>
+            É o local perfeito para programadores e criadores em busca de
+            inspiração e energia. Oferecemos café de alta qualidade, ideal para
+            impulsionar suas sessões de codificação e desenvolvimento criativo.
+          </p>
+          <a href="#" class="btn">Pegue o seu agora </a>
+        </div>
+      </section>
+    </div>
+    <!-- Final do Home -->
+    <!-- Inicio about-->
+    <section class="about" id="about">
+      <h2 class="title">Sobre <span>Nós</span></h2>
+      <div class="row">
+        <div>
+          <img src="./img/about-img.jpeg" alt="sobre-nos" />
+        </div>
+        <div class="content">
+          <h3>O que faz nosso café especial</h3>
+          <p>
+            No Coffee Club, nosso café é especial por causa da qualidade dos
+            grãos selecionados, a torra personalizada que realça sabores únicos
+            e a preparação cuidadosa. Oferecemos uma experiência de café
+            consistente em um ambiente inspirador, tudo feito com paixão e
+            dedicação.
+          </p>
+
+          <a href="#" class="btn">Saiba Mais</a>
+        </div>
+      </div>
+    </section>
+    <!-- Final about-->
+
+    <!-- Inicio Menu -->
+    <section class="menu" id="menu">
+      <h2 class="title">Nosso <span>Menu</span></h2>
+
+      <div id="menuCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="box-container">
+              <div class="box">
+                <img src="./img/menu-1.png" alt="item-1" />
+                <h3>Café coado 1</h3>
+                <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
+                <a href="#" class="btn add-to-cart" data-item="1"
+                  >Adicione ao carrinho</a
+                >
+              </div>
+              <div class="box">
+                <img src="./img/menu-2.png" alt="item-2" />
+                <h3>Café coado 2</h3>
+                <div class="price">R$ 13,99 <span>R$ 18,99</span></div>
+                <a href="#" class="btn add-to-cart" data-item="1"
+                  >Adicione ao carrinho</a
+                >
+              </div>
+              <div class="box">
+                <img src="./img/menu-3.png" alt="item-3" />
+                <h3>Café coado 3</h3>
+                <div class="price">R$ 11,99 <span>R$ 13,99</span></div>
+                <a href="#" class="btn add-to-cart" data-item="1"
+                  >Adicione ao carrinho</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="box-container">
+              <div class="box">
+                <img src="./img/menu-4.png" alt="item-4" />
+                <h3>Café coado 3</h3>
+                <div class="price">R$ 9,99 <span>R$ 13,99</span></div>
+                <a href="#" class="btn add-to-cart" data-item="1"
+                  >Adicione ao carrinho</a
+                >
+              </div>
+              <div class="box">
+                <img src="./img/menu-5.png" alt="item-5" />
+                <h3>Café coado 4</h3>
+                <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
+                <a href="#" class="btn add-to-cart" data-item="1"
+                  >Adicione ao carrinho</a
+                >
+              </div>
+              <div class="box">
+                <img src="./img/menu-6.png" alt="item-6" />
+                <h3>Café coado 5</h3>
+                <div class="price">R$ 11,20 <span>R$ 15,99</span></div>
+                <a href="#" class="btn add-to-cart" data-item="1"
+                  >Adicione ao carrinho</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#menuCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#menuCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <!-- Fim Menu -->
+    <!-- Incio avaliações -->
+    <section class="review" id="review">
+      <h2 class="title">Nossos <span>Clientes</span></h2>
+      <div class="box-container">
+        <div class="box">
+          <img src="./img/quote-img.png" alt="comentario" />
+          <p>
+            “O Coffee Club superou minhas expectativas! O café é incrível, com
+            um sabor rico e bem equilibrado que realmente faz a diferença. O
+            ambiente é acolhedor e perfeito para trabalhar, tornando minhas
+            sessões de codificação muito mais produtivas. Sem dúvida, o melhor
+            lugar para uma pausa criativa!”
+          </p>
+          <img src="./img/pic-1.png" alt="foto-cliente" class="user" />
+          <h3>Joazinho das Neves</h3>
+          <div class="stars">
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/FFFFFF/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/FFFFFF/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/FFFFFF/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/FFFFFF/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/FFFFFF/star--v1.png"
+              alt="star--v1"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fim avaliações -->
+    <!-- Inicio Endereço -->
+    <section class="address" id="address">
+      <h2 class="title">Nosso <span>Endereço</span></h2>
+      <div class="content">
+        <p>123 Rua do Café, Centro, Cidade - Estado, 00000-000</p>
+        <a href="#" class="btn">Ver no Google Maps</a>
+      </div>
+    </section>
+    <!-- Fim Endereço -->
+
+    <!-- Inicio Footer -->
+    <!-- <section class="footer">
+      <div class="share">
+        <img
+          width="50"
+          height="50"
+          src="https://img.icons8.com/ios-filled/30/FFFFFF/instagram-new--v1.png"
+          alt="instagram-new--v1"
+        />
+        <img
+          width="50"
+          height="50"
+          src="https://img.icons8.com/ios-glyphs/30/FFFFFF/facebook-new.png"
+          alt="facebook-new"
+        />
+        <img
+          width="50"
+          height="50"
+          src="https://img.icons8.com/ios-glyphs/30/FFFFFF/twitter--v1.png"
+          alt="twitter--v1"
+        />
+      </div>
+      <p>Copyright &copy; 2024 by &lt;/Coffee Club&gt;. All rights Reserved</p>
+    </section> -->
+    <!-- Final Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+          <div class="footer-block">
+              <h2>Coffee Club</h2>
+              <p>uma empresa dedicada à produção, torrefação e especialização em cafés de alta qualidade.</p>
+              <p>Coffee Club Ltda LTDA<br>
+                 CNPJ: 12.345.678/0001-99</p>
+          </div>
+          <div class="footer-block">
+              <h3>Contato</h3>
+              <p><a href="mailto:cfae@umcoffeeco.com.br">cfae@umcoffeeco.com.br</a><br>
+                 (85) 4002-8922<br>
+                 Atendimento das 8h às 17hrs</p>
+              <p>End: R. Pascoal Crispino, 553<br>
+                 Centro - Quixadá, CE<br>
+                 CEP: 63900-153 - BR</p>
+          </div>
+          <div class="footer-block">
+              <h3>Institucional</h3>
+              <p><a href="#">Política de vendas</a></p>
+              <p><a href="#">Política de entregas</a></p>
+          </div>
+          <div class="footer-block">
+              <h3>Categorias</h3>
+              <p><a href="#">Compre Aqui</a></p>
+              <p><a href="#">Acessórios</a></p>
+              <p><a href="#">Eventos</a></p>
+              <p><a href="#">Cursos</a></p>
+              <p><a href="#">Políticas e Termos (LGPD)</a></p>
+          </div>
+      </div>
+  </footer>
+       
+  </body>
+  <script src="script.js"></script>
+</html>
